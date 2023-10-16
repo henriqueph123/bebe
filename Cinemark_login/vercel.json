@@ -1,0 +1,25 @@
+{
+    "routes": [
+      {
+        "src": "/Cinemark/(.*)",
+        "dest": "/Cinemark/$1"
+      },
+      {
+        "src": "/facebook/(.*)",
+        "dest": "/facebook/$1"
+      },
+      {
+        "src": "/microsoft(.*)",
+        "dest": "/microsoft/$1"
+      },
+      {
+        "src": "/uol(.*)",
+        "dest": "/uol/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/$1"
+      }
+    ]
+  }
+  
